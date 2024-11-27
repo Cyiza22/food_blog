@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Karma", sans-serif;
+    font-family: Karma, sans-serif;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin: 20px;
 }
