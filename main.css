@@ -4,3 +4,9 @@
     box-sizing: border-box;
     font-family: "Karma", sans-serif;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
