@@ -18,7 +18,7 @@ nav{
   
 }
 nav .menu-toggle{
-    color: black;
+    /* color: black; */
     cursor: pointer;
     font-size: 1.5rem;
 
