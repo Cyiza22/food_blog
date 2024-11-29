@@ -65,7 +65,7 @@ nav .menu-toggle{
   }
   .line{
     height: 1px;
-    background-color: #ece0e0c6;
+    background-color: #ddd;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,3 +99,98 @@ nav .menu-toggle{
     margin: 20px auto;
     width: 96%
   }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer1 {
+    flex: 1;
+    min-width: 250px;
+    margin-right: 20px;
+}
+
+.footer1 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer1 p {
+    line-height: 1.6;
+    color: #333;
+}
+
+.footer1 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer1 a:hover {
+    text-decoration: underline;
+}
+
+.blogs {
+    flex: 1;
+    min-width: 250px;
+    margin-right: 20px;
+}
+
+.blogs h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.blog1, .blog2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.blog1 img, .blog2 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.workshop, .gondol {
+    font-size: 14px;
+    color: #333;
+}
+
+.workshop h3, .gondol h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.popular {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.popular p {
+    font-size: 12px;
+    margin: 0;
+    padding: 2px 5px;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    flex: 1 0 calc(33.33% - 10px);
+}
+
+.popular .black {
+    background-color: #000;
+    color: #fff;
+}
+
+.popular p:hover {
+    background-color: #444;
+}
